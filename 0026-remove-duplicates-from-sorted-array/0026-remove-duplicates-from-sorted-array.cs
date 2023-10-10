@@ -9,7 +9,8 @@ public class Solution {
 
     int k = 1;
     int prev = nums[0]; 
-     for (int i = 1; i < len; i++)
+
+    for (int i = 1; i < len; i++)
     {
         if (nums[i] != prev)
         {
@@ -18,7 +19,7 @@ public class Solution {
             k++;
         }
     }
-
+    
     return k;
         
     }
