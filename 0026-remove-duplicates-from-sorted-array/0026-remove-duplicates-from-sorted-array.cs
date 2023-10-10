@@ -13,9 +13,10 @@ public class Solution {
     {
         if (nums[i] != prev)
         {
-            nums[k] = nums[i]; 
-            prev = nums[i]; 
-            k++;
+            var unique = nums[i];
+            nums[k++] = unique; 
+            prev = unique; 
+           
         }
     }
 
