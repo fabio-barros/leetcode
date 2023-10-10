@@ -9,7 +9,7 @@ public class Solution {
     int k = 1;
     int prev = nums[0]; 
 
-    for (int i = 1; i < nums.Length; i++)
+     for (int i = 1; i < nums.Length; i++)
     {
         if (nums[i] != prev)
         {
