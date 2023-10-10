@@ -13,7 +13,8 @@ public class Solution {
     {
         if (nums[i] != prev)
         {
-            nums[k] = prev = nums[i]; 
+            nums[k] = nums[i]; 
+            prev = nums[i]; 
             k++;
         }
     }
