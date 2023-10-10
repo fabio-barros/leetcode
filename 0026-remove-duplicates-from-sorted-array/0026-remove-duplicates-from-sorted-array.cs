@@ -9,14 +9,12 @@ public class Solution {
 
     int k = 1;
     int prev = nums[0]; 
-    int a;
      for (int i = 1; i < len; i++)
     {
-        a = nums[i];
-        if (a != prev)
+        if (nums[i] != prev)
         {
-            nums[k] = a; 
-            prev = a; 
+            nums[k] = nums[i]; 
+            prev = nums[i]; 
             k++;
         }
     }
