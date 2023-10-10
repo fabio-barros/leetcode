@@ -11,10 +11,11 @@ public class Solution {
     int prev = nums[0]; 
      for (int i = 1; i < len; i++)
     {
-        if (nums[i] != prev)
+        var a = nums[i];
+        if (a != prev)
         {
-            nums[k] = nums[i]; 
-            prev = nums[i]; 
+            nums[k] = a; 
+            prev = a; 
             k++;
         }
     }
