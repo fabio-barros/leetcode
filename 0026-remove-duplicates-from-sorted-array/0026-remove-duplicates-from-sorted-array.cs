@@ -13,9 +13,9 @@ public class Solution {
     {
         if (nums[i] != prev)
         {
-            nums[k++] = nums[i]; 
+            nums[k] = nums[i]; 
             prev = nums[i]; 
-
+            k++;
         }
     }
 
